@@ -1,23 +1,19 @@
-import Cta from "@/components/home/Cta";
-import CtaTwo from "@/components/home/CtaTwo";
-import Hero from "@/components/home/Hero";
-import HeroThree from "@/components/home/HeroThree";
-import HeroTwo from "@/components/home/HeroTwo";
-import WhyChooseUs from "@/components/home/WhyChooseUs";
+import BackedByInvestors from "@/components/home/back-investors";
+import Features from "@/components/home/features";
+import FirstStep from "@/components/home/first-step";
+import HomeHero from "@/components/home/hero";
+import RegisteredUsers from "@/components/home/registered-user";
+import Secure from "@/components/home/secure";
 
 export default function Home() {
   return (
     <main>
-      {/* hero image */}
-      <Hero />
-      {/* end of hero */}
-      {/* CTA convincing */}
-      <Cta />
-      {/* end of CTA convincing */}
-      <WhyChooseUs />
-      <HeroTwo />
-      <HeroThree />
-      <CtaTwo />
+      <HomeHero />
+      <FirstStep />
+      <Features />
+      <RegisteredUsers />
+      <Secure />
+      <BackedByInvestors />
     </main>
   );
 }

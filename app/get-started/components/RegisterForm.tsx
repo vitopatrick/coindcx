@@ -69,10 +69,10 @@ const RegisterForm = () => {
       );
 
       // call the API
-      await fetch("/api", {
-        method: "POST",
-        body: JSON.stringify({ email: values.email }),
-      });
+      // await fetch("/api", {
+      //   method: "POST",
+      //   body: JSON.stringify({ email: values.email }),
+      // });
 
       // add the refresh token to localStorage
       localStorage.setItem("token", user.refreshToken);
@@ -139,7 +139,7 @@ const RegisterForm = () => {
             <span className="font-semibold text-main underline">It's Free</span>
           </h4>
           <p className="font-body underline">
-            Trade the global markets with nagamarkets
+            Trade the global markets with CoinDCX
           </p>
         </div>
         <form

@@ -4,9 +4,10 @@ export default function AuthHeader() {
   return (
     <header className="mb-[8%] p-3 flex items-center justify-between">
       <Link href="/">
-        <div className="font-header text-main underline font-bold p-3 text-2xl tracking-widest">
-          NAGAMARKETS
-        </div>
+        <img
+          src="https://coindcx.com/assets/new-home-page/Fold1_Logo.svg"
+          alt=""
+        />
       </Link>
       <div>
         <Link href="/get-started">

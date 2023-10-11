@@ -25,7 +25,10 @@ export default function SideBarLinks() {
           href="/dashboard"
           className="text-2xl underline text-main font-header tracking-widest"
         >
-          Nagamarket
+          <img
+            src="https://coindcx.com/assets/new-home-page/Fold1_Logo.svg"
+            alt=""
+          />
         </Link>
       </div>
       {/* links wrapper container*/}

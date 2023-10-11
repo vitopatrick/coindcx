@@ -2,29 +2,26 @@ import Link from "next/link";
 
 export default function Nav() {
   return (
-    <nav className="bg-gray-50 border border-b border-main/5">
+    <nav className="bg-gray-50">
       {/* container for the navigation bar */}
-      <section className="w-[95%] md:w-4/5 mx-auto py-6">
+      <section className="w-[95%] md:w-4/5 mx-auto py-5">
         {/* flex container */}
         <div className="flex items-center justify-between">
-          <Link
-            href="/"
-            className="font-header text-main tracking-widest underline uppercase text-xl md:text-2xl font-bold"
-          >
-            Nagamarkets
+          <Link href="/">
+            <img src="/Logo_CoinDCX.svg" alt="s" />
           </Link>
-          <div className="font-body flex gap-3">
+          <div className="space-x-3 font-body">
             <Link
               href="/login"
-              className="border border-main px-6 py-4 rounded-lg text-main"
+              className="uppercase border border-orange-600 rounded-lg px-6 py-2 text-orange-600"
             >
               Login
             </Link>
             <Link
               href="/get-started"
-              className="bg-main hidden md:block text-white px-6 py-4 rounded-lg"
+              className="uppercase bg-orange-600 text-white px-6 py-2 rounded-lg"
             >
-              Get started
+              Register
             </Link>
           </div>
         </div>
