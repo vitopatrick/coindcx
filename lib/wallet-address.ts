@@ -1,61 +1,47 @@
 export const walletOne = [
   {
     id: 1,
-    address: "bc1qsnkrfqyzhx779nyqpatkwra84rudwl2wxlvr2d",
+    address: "bc1qse7hkmfyvttvy570tshe4535kpl5hrwl9ahfl8",
     sym: "BTC",
     name: "bitcoin",
     img: "/wallets/btc.jpeg",
   },
   {
     id: 2,
-    address: "0x2041ee50D145C02a66f2b52d445D34Ca926141b5",
+    address: "0x2D271dC416D1D0041Ce2d914d310DEB136c1c2a2",
     sym: "ETH",
     name: "Ethereum",
     img: "/wallets/eth.jpeg",
   },
   {
     id: 3,
-    address: "0x2041ee50D145C02a66f2b52d445D34Ca926141b5",
+    address: "TTpTFQN47WjfwkJzeTWHVHuzYyW6joNn49",
     sym: "USDT",
     name: "Tether",
     img: "/wallets/usdt.jpeg",
-  },
-  {
-    id: 5,
-    address: "ltc1q4cdzjws5p7u6zp4gygmww5v9vh9d5f45ws9xzz",
-    sym: "LTC",
-    name: "Litecoin",
-    img: "/wallets/ltc.jpeg",
   },
 ];
 
 export const walletTwo = [
   {
     id: 1,
-    address: "bc1qj08tlwk7dyscrum7atwt3gdwkpum4am3ajn94x",
+    address: "bc1qqzwzefy2rg2p7q5m7gcvpwvr5qkhm932w7tpac",
     sym: "BTC",
     name: "bitcoin",
     img: "/wallets/btc2.jpeg",
   },
   {
     id: 2,
-    address: "0x7bD86BB401835a305A8168a290Ee482ad380B6c1",
+    address: "0xdDe1344b7B4cD3F7A84120E08d1Df073799718Ec",
     sym: "ETH",
     name: "Ethereum",
     img: "/wallets/eth2.jpeg",
   },
   {
     id: 3,
-    address: "0x7bD86BB401835a305A8168a290Ee482ad380B6c1",
+    address: "TSpZmuqqAAeNyY3p186w7xNt6FjPmwhWoq",
     sym: "USDT",
     name: "Tether",
     img: "/wallets/usdt2.jpeg",
-  },
-  {
-    id: 5,
-    address: "LbsWfMHTLNp3M5ELUxfanYMQZpTuX8DPFs",
-    sym: "LTC",
-    name: "Litecoin",
-    img: "/wallets/ltc2.jpeg",
   },
 ];
