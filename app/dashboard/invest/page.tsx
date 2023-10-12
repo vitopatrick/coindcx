@@ -8,10 +8,6 @@ export default function InvestmentPage() {
         <h4 className="text-xl md:text-3xl underline text-center">
           Choose an investment plan
         </h4>
-        <p className="text-neutral-500">
-          choose a plan that matches your investment strategies and while gain
-          your beneficial interest, CoinDcx is with you all the way
-        </p>
       </div>
       {/* end of header section */}
       {/* investment cards */}

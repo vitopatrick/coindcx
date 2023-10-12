@@ -7,13 +7,13 @@ const SecurityFeatures = [
     id: 1,
     icon: "/Fast_Simple.svg",
     heading: "Simple & Quick",
-    body: "Download the CoinDCX app, complete KYC and deposit Coin to start investing",
+    body: "Register, complete KYC and deposit Coin to start investing",
   },
   {
     id: 2,
     icon: "/Transactions_card.svg",
     heading: "Valuing Risk Appetite",
-    body: "We value your risk appetite and enable you to invest with amount as low as $100",
+    body: "We value your risk appetite and enable you to invest with amount as low as $500",
   },
   {
     id: 3,

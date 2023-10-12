@@ -19,7 +19,7 @@ const steps = [
     id: 5,
     stepHeader: "A Larger Vision",
     stepBody:
-      "As one of the most valued crypto company, we are building the Indian Crypto Ecosystem with Ventures, Learn, etc.",
+      "As one of the most valued crypto company, we are building the Crypto Ecosystem with Ventures, Learn, etc.",
   },
 ];
 

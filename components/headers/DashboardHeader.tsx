@@ -34,7 +34,7 @@ export default function DashboardHeader({ toggle }: DashboardHeaderProps) {
       <div className="flex items-center gap-3">
         <button
           onClick={() => setIsOpen(true)}
-          className="bg-red-600 px-6 py-2 rounded-lg text-white font-body hover:bg-red-500"
+          className="hidden bg-red-600 px-6 py-2 rounded-lg text-white font-body hover:bg-red-500"
         >
           Trade Live
         </button>

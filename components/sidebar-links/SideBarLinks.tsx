@@ -21,14 +21,8 @@ export default function SideBarLinks() {
     <div className="text-white p-4 relative">
       {/* logo */}
       <div>
-        <Link
-          href="/dashboard"
-          className="text-2xl underline text-main font-header tracking-widest"
-        >
-          <img
-            src="https://coindcx.com/assets/new-home-page/Fold1_Logo.svg"
-            alt=""
-          />
+        <Link href="/dashboard">
+          <img src="/Logo_CoinDCX.svg" alt="" />
         </Link>
       </div>
       {/* links wrapper container*/}

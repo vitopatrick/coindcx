@@ -8,7 +8,7 @@ const usersFeatures = [
     id: 1,
     icon: "/Add_Account.svg",
     heading: "1. Create your CoinDCX account",
-    body: "Download the app, keep your documents handy & complete the KYC",
+    body: "Register, keep your documents handy & complete the KYC",
   },
   {
     id: 2,

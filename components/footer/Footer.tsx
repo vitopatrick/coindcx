@@ -7,7 +7,7 @@ export default function Footer() {
       <div className="w-[80%] mx-auto">
         <h4 className="font-body uppercase font-semibold mb-3">DISCLAIMER</h4>
         <div>
-          <p className="font-body capitalize text-neutral-400 leading-loose text-xs">
+          <p className="font-body capitalize text-neutral-400 font-light leading-loose text-xs">
             The information and material contained herein are subject to change
             without prior notice including prices which may fluctuate based on
             market demand and supply. The material available on the site is
@@ -22,7 +22,7 @@ export default function Footer() {
             loss from such transactions.
           </p>
           {/* List */}
-          <ul className="font-body text-xs space-y-3 text-neutral-400 mt-4">
+          <ul className="font-body font-light text-xs space-y-3 text-neutral-400 mt-4">
             <li>*Data sourced from Looker app as on 01st May,2023</li>
             <li>*Data as on 01st May,2023</li>
             <li>

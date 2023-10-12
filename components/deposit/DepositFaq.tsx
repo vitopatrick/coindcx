@@ -9,12 +9,12 @@ const faqs = [
     id: 1,
     question: "How many confirmations does CoinDcx need?",
     answer:
-      "he deposit transaction will be automatic, and the Bitcoin transfer will need to be confirmed by the entire Bitcoin network, and your Bitcoin will be automatically deposited to your account after 6 confirmation",
+      "deposit transactions will be automatic, and the Bitcoin transfer will need to be confirmed by the entire Bitcoin network, and your Bitcoin will be automatically deposited to your account after 6 confirmation",
   },
   {
     id: 2,
     question: "What is the minimum deposit",
-    answer: "The deposit amount must be between $5 – $5,000 per trade.",
+    answer: "The deposit amount must be between $500 – $5,000 per trade.",
   },
   {
     id: 3,

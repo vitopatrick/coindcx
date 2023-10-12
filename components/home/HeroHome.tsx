@@ -14,8 +14,8 @@ const HomeHero = (props: Props) => {
               Trust of 1.4Cr+ registered users
             </h2>
             <p className="font-body text-sm font-light w-full md:w-[30%] mx-auto">
-              Invest in Bitcoin, Ethereum, & other 500+ crypto assets. Download
-              the app now, register & start with as low as $100.
+              Invest in Bitcoin, Ethereum, & other 100+ crypto assets. Download
+              the app now, register & start with as low as $500.
             </p>
           </div>
           {/* Phone Image */}

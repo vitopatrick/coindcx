@@ -222,7 +222,7 @@ const Form = () => {
           {/* end of wallet details */}
         </form>
       </section>
-      <UploadProof />
+      {/* <UploadProof /> */}
       <BarCodeModal show={showBarCode} close={setBarCode} coin={defaultCoin} />
       <LoadingModal isOpen={isSubmitting} />
     </>
