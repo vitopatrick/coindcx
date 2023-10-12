@@ -13,7 +13,7 @@ export default function Nav() {
           <div className="space-x-3 font-body">
             <Link
               href="/login"
-              className="uppercase border border-orange-600 rounded-lg px-6 py-2 text-orange-600"
+              className="uppercase border hidden md:inline-block border-orange-600 rounded-lg px-6 py-2 text-orange-600"
             >
               Login
             </Link>
