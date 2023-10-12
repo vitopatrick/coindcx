@@ -1,8 +1,9 @@
 "use client";
-import Footer from "@/components/footer/Footer";
+// import Footer from "@/components/footer/Footer";
 import "./globals.css";
-import Nav from "@/components/nav/Nav";
+// import Nav from "@/components/nav/Nav";
 import { useChatSupport } from "@/hooks/useChatSupport";
+
 
 export default function RootLayout({
   children,
@@ -14,9 +15,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <Nav />
+        {/* <Nav /> */}
         {children}
-        <Footer />
+        {/* <Footer /> */}
       </body>
     </html>
   );

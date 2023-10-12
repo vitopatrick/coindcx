@@ -36,7 +36,10 @@ const RegisteredUsers = (props: Props) => {
         {/* Flex container */}
         <div className="flex justify-between flex-col md:flex-row my-[5rem]">
           {usersFeatures.map((features) => (
-            <div className="flex flex-col items-center justify-between gap-4">
+            <div
+              key={features.id}
+              className="flex flex-col items-center justify-between gap-4"
+            >
               <img src={features.icon} alt="s" className="w-[80px]" />
 
               <div className="text-center font-body">

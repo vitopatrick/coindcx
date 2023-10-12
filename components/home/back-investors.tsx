@@ -21,7 +21,7 @@ const BackedByInvestors = (props: Props) => {
         {/* flex container */}
         <div className="flex justify-between flex-col items-center  md:flex-row my-5">
           {images.map((image) => (
-            <div>
+            <div key={image}>
               <img src={image} alt="logos" />
             </div>
           ))}

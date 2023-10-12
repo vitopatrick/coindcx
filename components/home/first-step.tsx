@@ -52,7 +52,6 @@ const FirstStep = (props: Props) => {
             ))}
           </div>
         </div>
-
         <img
           className="md:w-[700px] w-full"
           src="/portfolio-display.svg"

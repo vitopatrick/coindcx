@@ -1,3 +1,4 @@
+"use client";
 import Link from "next/link";
 
 export default function Nav() {
@@ -8,18 +9,18 @@ export default function Nav() {
         {/* flex container */}
         <div className="flex items-center justify-between">
           <Link href="/">
-            <img src="/Logo_CoinDCX.svg" alt="s" />
+            <img src="/Logo_CoinDCX.svg" alt="logo" />
           </Link>
           <div className="space-x-3 font-body">
             <Link
               href="/login"
-              className="uppercase border hidden md:inline-block border-orange-600 rounded-lg px-6 py-2 text-orange-600"
+              className="uppercase border text-sm border-orange-600 rounded-lg px-6 py-3 text-orange-600"
             >
               Login
             </Link>
             <Link
               href="/get-started"
-              className="uppercase bg-orange-600 text-white px-6 py-2 rounded-lg"
+              className="uppercase bg-orange-600 text-sm  text-white px-6 py-3 rounded-lg"
             >
               Register
             </Link>
